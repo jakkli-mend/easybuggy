@@ -87,6 +87,7 @@ public class StringPlusOperationServlet extends AbstractServlet {
         }
     }
 
+    
     private void appendCheckBox(String[] characters, Locale locale, StringBuilder bodyHtml, String[] allCharacters,
             String label) {
         bodyHtml.append("<p>" + getMsg(label, locale) + "</p>");
